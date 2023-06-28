@@ -1,0 +1,66 @@
+.Task {
+  max-width: 46rem;
+  padding: 1rem;
+  margin-bottom: .75rem;
+
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  font-size: .875rem;
+  line-height: 1.4;
+  color: var(--gray-100);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.taskContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+}
+
+.TaskNotCompleted {
+  max-width: 70ch;
+}
+
+.TaskCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+  max-width: 70ch;
+}
+
+.Task button {
+  width: 1.2rem;
+
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+  transition: .1s all linear;
+  text-align: center;
+}
+
+.Task button:hover {
+  background-color: var(--gray-400);
+  border-radius: 4px;
+  color: var(--danger);
+  transition: .1s all linear;
+  cursor: pointer;
+}
+
+@media (max-width: 50rem) {
+  .Task {
+    height: auto;
+  }
+
+  .taskTrash {
+    color: var(--danger);
+  }
+
+  .Task button:hover {
+    background-color: transparent;
+  }
+}

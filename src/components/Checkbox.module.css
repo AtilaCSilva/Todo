@@ -1,0 +1,42 @@
+.taskInput {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.taskInput {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+}
+
+.taskInput:hover {
+  border-color: var(--blue-dark);
+  background-color: #10212a;
+  cursor: pointer;
+}
+
+.taskInput:checked {
+  background-color: var(--purple-dark);
+  background-image: url(../assets/done.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: var(--purple-dark);
+  transition: .2s linear;
+  transition-property: background-color, border-color;
+}
+
+.taskInput:checked:hover {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  transition: .2s linear;
+  transition-property: background-color, border-color;
+}
+
+@media (max-width: 500px) {
+  .taskInput {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+}

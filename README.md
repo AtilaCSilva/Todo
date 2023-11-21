@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
- Desafio pratico do primeiro módulo do curso ReactJS da @Rocketseat.
+ Desafio prático do primeiro módulo do curso ReactJS da @Rocketseat.
  Nele eu coloquei em prática tudo que foi mostrado no módulo e mais um pouco.
  O projeto é um To-Do, para gerenciamento de tárefas do dia a dia.
 
